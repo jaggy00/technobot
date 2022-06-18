@@ -149,7 +149,7 @@ def start_all():
 
     # Get discord tokens
     print("[INFO] Getting Discord token...", flush=True)
-    token = os.getenv('DISCORD_TOKEN')
+    token = ""
     TARGET_CHANNEL = [103, 101, 110, 101, 114, 97, 108]
     print("[OK] Got Discord token!", flush=True)
 
