@@ -215,7 +215,7 @@ def start_all():
 
     # Get Discord token
     print("[INFO] Getting Discord token...", flush=True)
-    token = os.getenv('DISCORD_TOKEN')
+    token = ""
     print("[OK] Got Discord token!", flush=True)
 
     print("[OK] The Discord bot is running!... ⤵\n       ↪ Catch it before it gets away!\n", flush=True)
